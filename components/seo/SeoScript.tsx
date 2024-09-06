@@ -33,20 +33,6 @@ export default function SeoScript() {
           `,
         }}
       />
-      <Script
-        strategy='afterInteractive'
-        src="https://plausible.io/js/script.file-downloads.hash.outbound-links.js"
-        data-domain="aibesttop.com"
-      />
-      <Script
-        id='plausible-init'
-        strategy='afterInteractive'
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
-          `,
-        }}
-      />
     </>
   );
 }
